@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('Pictures/Header.jpg');
+    background-size: cover; /* This will make the image cover the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed during scroll */
+    background-position: center; /* Centers the image */
+    color: #fff;
+
+}
+
+
+
+.logo{
+    width: 100px;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button{
+    background-color: rgba(10, 10, 10, 0.7); 
+    
+    border-left: 2px solid #023b78;
+    border-top: 2px solid #023b78;
+    border-bottom: 2px solid #023b78;
+    border-right: 2px solid #023b78;
+    color: #fff; /* Set text color */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Add rounded corners */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    text-decoration: none; /* Remove underline from link */
+}
+
+.button:hover{
+        background-color:  #023b78; /* Darken background color on hover */
+
+}
+.container{
+    padding: 10px 10%; /* adding 10 pixels top and bottom. adding 10 percent to the left and right side.*/
+}
+
+.Home{
+    margin-top: 170px;
+    margin-left:140px;
+    font-size: 30px;
+    
+    
+}
+.Intro{
+    font-size: 10px;
+}
+.profile{
+    margin-left:70px;
+}
+
+.home-section{
+    display: flex;
+}
+
+.AboutMe-Section{
+    display: flex;
+    margin-top: 170px;
+    margin-left: 140px;
+
+
+}
+
+.firstMessage{
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+.SecondMessage{
+    margin-left: 150px;
+    margin-right:140px;
+    font-size: 25px;
+    line-height: 1.6;
+    text-align: justify;
+    background-color: rgba(10, 10, 10, 0.7); 
+    border-left: 4px solid #023b78;
+    border-top: 4px solid #023b78;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.Projects-Section{
+    display: flex;
+    margin-top: 170px;
+    margin-left: 140px;
+    margin-right:140px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Projects-Section button{
+    background:rgb(10, 10, 10);
+    color: #fff; /* Set text color */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Add rounded corners */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    text-decoration: none; /* Remove underline from link */
+}
+.Projects-Section button:hover{
+    background-color:rgb(251, 2, 2); /* Darken background color on hover */
+}
+
+.Project1, .Project2, .Project3{
+    /* Set the width and height of the box */
+    width: 350px;
+    height: 150px;
+     /* Set the background color */
+    background-color: rgba(10, 10, 10, 0.7); 
+    
+    border-left: 4px solid #023b78;
+    border-top: 4px solid #023b78;
+    border-bottom: 4px solid #023b78;
+    border-right: 4px solid #023b78;
+    
+    /* Center text inside the box */
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-between;
+    
+    /* Set text alignment and style */
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+
+}
+
+.Services-Section{
+    display: flex;
+    margin-top: 170px;
+    margin-left: 140px;
+}
+
+.ServiceMessage{
+    font-size: 50px;
+    margin-left: 70px;
+    margin-top: 200px;
+}
+
+.ServicesList{
+    width: 350px;
+    height: 350px;
+    background-color: rgba(10, 10, 10, 0.7); 
+    border-top: 4px solid #023b78;
+    border-right: 4px solid #023b78;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 350px;
+    padding: 10px;
+    
+}
+
+.ContactInfo{
+    display: flex;
+    justify-content: center;
+    margin-top: 970px;
+    margin-left: 140px;
+}
